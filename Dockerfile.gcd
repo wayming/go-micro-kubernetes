@@ -1,6 +1,6 @@
 FROM golang:1.9.1
 
-WORKDIR /go/src/github.com/tinrab/kubernetes-go-grpc-tutorial/gcd
+WORKDIR /go/src/go-micro-kubernetes/gcd
 COPY gcd .
 COPY pb ../pb
 

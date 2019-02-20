@@ -1,7 +1,7 @@
 FROM golang:1.9.1
 
 # Change this path!
-WORKDIR /go/src/github.com/tinrab/kubernetes-go-grpc-tutorial/api
+WORKDIR /go/src/go-micro-kubernetes/api
 COPY api .
 COPY pb ../pb
 

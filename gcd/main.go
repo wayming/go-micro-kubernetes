@@ -1,12 +1,11 @@
 package main
 
 import (
+	"go-micro-kubernetes/pb"
 	"log"
 	"net"
-	// Change this for your own project
-	"go-micro-kubernetes/pb"
 
-	context "golang.org/x/net/context"
+	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
